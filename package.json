@@ -1,6 +1,6 @@
 {
     "name": "fvi-actor-system",
-    "version": "0.0.6",
+    "version": "0.0.0",
     "description": "FVI - Actor System",
     "publishConfig": {
         "registry": "http://ec2-34-230-6-254.compute-1.amazonaws.com:4873"
