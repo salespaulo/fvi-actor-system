@@ -1,7 +1,7 @@
 {
-    "name": "i-actor-system",
+    "name": "fvi-actor-system",
     "version": "0.0.6",
-    "description": "Intelligir - Actor System",
+    "description": "FVI - Actor System",
     "publishConfig": {
         "registry": "http://ec2-34-230-6-254.compute-1.amazonaws.com:4873"
     },
@@ -22,15 +22,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://console.aws.amazon.com/codesuite/codecommit/repositories/i-actor-system/browse?region=us-east-1"
+        "url": "https://console.aws.amazon.com/codesuite/codecommit/repositories/fvi-actor-system/browse?region=us-east-1"
     },
     "keywords": [
         "robot",
         "management"
     ],
-    "author": "Intelligir - Robot Conduct's",
+    "author": "FVI - Robot Conduct's",
     "license": "UNLICENSED",
-    "homepage": "git+https://console.aws.amazon.com/codesuite/codecommit/repositories/i-actor-system/browse?region=us-east-1#README.md",
+    "homepage": "git+https://console.aws.amazon.com/codesuite/codecommit/repositories/fvi-actor-system/browse?region=us-east-1#README.md",
     "dependencies": {
         "i-node-utils": "^0.2.0",
         "comedy": "^2.1.1"

@@ -1,1 +1,1 @@
-declare module 'i-actor-system'
+declare module 'fvi-actor-system'

@@ -1,4 +1,4 @@
-# i-actor-system
+# fvi-actor-system
 
 -   `npm run compile`: Executa a limpeza dos arquivos e diretorios.
 -   `npm run debug-test`: Executa os testes unitários com o DEBUG ativo.
@@ -12,9 +12,9 @@
 -   `npm run release:major`: Inicia uma nova release de versão incrementando o **major**, [git flow](https://github.com/nvie/gitflow/) release start.
 -   `npm run release:finish`: Finaliza a release, ou seja, realiza o [git flow](https://github.com/nvie/gitflow/) release finish.
 
-## Intelligir - Actor System
+## FVI - Actor System
 
-Biblioteca que disponibiliza um sistema de modelo de atores baseado nos estudos e aprendizados da empresa Intelligir. Seguindo e utilizando a biblioteca [comedyjs](https://github.com/untu/comedy).
+Biblioteca que disponibiliza um sistema de modelo de atores baseado nos estudos e aprendizados da empresa FVI. Seguindo e utilizando a biblioteca [comedyjs](https://github.com/untu/comedy).
 
 ## Configuração
 
