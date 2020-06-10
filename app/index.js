@@ -1,7 +1,7 @@
 'use strict'
 
 const comedy = require('comedy')
-const utils = require('i-node-utils')
+const utils = require('fvi-node-utils')
 
 const getLoggerConfig = loggerConfig => {
     if (loggerConfig.actors) {

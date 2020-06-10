@@ -1,7 +1,7 @@
 'use strict'
 
 const chai = require('chai')
-const utils = require('i-node-utils')
+const utils = require('fvi-node-utils')
 
 const app = require('../app')
 
@@ -108,7 +108,7 @@ describe('Testing Actor System', () => {
                     root.createChild(
                         {
                             testIt: greetings => {
-                                const { debug } = require('i-node-utils')
+                                const { debug } = require('fvi-node-utils')
                                 const msg = process.pid + ': Hello, ' + greetings
                                 debug.here(msg)
                                 return process.pid
@@ -140,7 +140,7 @@ describe('Testing Actor System', () => {
                     root.createChild(
                         {
                             testIt: greetings => {
-                                const { debug } = require('i-node-utils')
+                                const { debug } = require('fvi-node-utils')
                                 const msg = process.pid + ': Hello, ' + greetings
                                 debug.here(msg)
                                 return process.pid
@@ -247,7 +247,7 @@ describe('Testing Actor System', () => {
                     root.createChild(
                         {
                             testIt: greetings => {
-                                const { debug } = require('i-node-utils')
+                                const { debug } = require('fvi-node-utils')
                                 const msg = 'Hello, ' + greetings
                                 debug.here(msg)
                                 return process.pid
