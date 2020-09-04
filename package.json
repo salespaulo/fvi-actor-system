@@ -6,6 +6,7 @@
     "prettier": "fvi-prettier-config",
     "scripts": {
         "compile": "grunt compile",
+        "build": "grunt compile shell:babel",
         "test": "grunt test",
         "debug-test": "grunt debug-test",
         "dev": "grunt dev",
