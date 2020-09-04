@@ -3,7 +3,7 @@
 const chai = require('chai')
 const utils = require('fvi-node-utils')
 
-const app = require('../app')
+const app = require('../src')
 
 const config = {
     level: 'fatal',
